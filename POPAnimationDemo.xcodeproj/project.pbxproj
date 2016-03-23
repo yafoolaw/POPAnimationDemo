@@ -15,6 +15,13 @@
 		B539BF611CA17AE200AC0B7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B539BF5F1CA17AE200AC0B7F /* LaunchScreen.storyboard */; };
 		B539BF6C1CA17BB300AC0B7F /* AbstractAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B539BF6B1CA17BB300AC0B7F /* AbstractAlertView.m */; };
 		B539BF701CA1881600AC0B7F /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B539BF6F1CA1881600AC0B7F /* CustomViewController.m */; };
+		B58A44E81CA2699E00CB9D34 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A44E71CA2699E00CB9D34 /* CustomNavigationController.m */; };
+		B58A44EC1CA26E5800CB9D34 /* CustomNomalContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A44EB1CA26E5800CB9D34 /* CustomNomalContentViewController.m */; };
+		B58A44EF1CA2734400CB9D34 /* CustomFullContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A44EE1CA2734400CB9D34 /* CustomFullContentViewController.m */; };
+		B58A44F21CA2753800CB9D34 /* NormalTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A44F11CA2753800CB9D34 /* NormalTitleViewController.m */; };
+		B58A44F61CA2767E00CB9D34 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A44F51CA2767E00CB9D34 /* UIColor+CustomColors.m */; };
+		B58A44FB1CA2778800CB9D34 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A44FA1CA2778800CB9D34 /* UIView+SetRect.m */; };
+		B58A44FF1CA28D5500CB9D34 /* UIFont+Fonts.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A44FE1CA28D5500CB9D34 /* UIFont+Fonts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,21 @@
 		B539BF6B1CA17BB300AC0B7F /* AbstractAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractAlertView.m; sourceTree = "<group>"; };
 		B539BF6E1CA1881600AC0B7F /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
 		B539BF6F1CA1881600AC0B7F /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		B58A44E61CA2699E00CB9D34 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		B58A44E71CA2699E00CB9D34 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		B58A44E91CA26BEA00CB9D34 /* CustomViewControllerSubviewTagValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewControllerSubviewTagValue.h; sourceTree = "<group>"; };
+		B58A44EA1CA26E5800CB9D34 /* CustomNomalContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNomalContentViewController.h; sourceTree = "<group>"; };
+		B58A44EB1CA26E5800CB9D34 /* CustomNomalContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNomalContentViewController.m; sourceTree = "<group>"; };
+		B58A44ED1CA2734400CB9D34 /* CustomFullContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFullContentViewController.h; sourceTree = "<group>"; };
+		B58A44EE1CA2734400CB9D34 /* CustomFullContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFullContentViewController.m; sourceTree = "<group>"; };
+		B58A44F01CA2753800CB9D34 /* NormalTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalTitleViewController.h; sourceTree = "<group>"; };
+		B58A44F11CA2753800CB9D34 /* NormalTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalTitleViewController.m; sourceTree = "<group>"; };
+		B58A44F41CA2767E00CB9D34 /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		B58A44F51CA2767E00CB9D34 /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		B58A44F91CA2778800CB9D34 /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		B58A44FA1CA2778800CB9D34 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		B58A44FD1CA28D5500CB9D34 /* UIFont+Fonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Fonts.h"; sourceTree = "<group>"; };
+		B58A44FE1CA28D5500CB9D34 /* UIFont+Fonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Fonts.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +91,7 @@
 				B539BF571CA17AE200AC0B7F /* ViewController.h */,
 				B539BF581CA17AE200AC0B7F /* ViewController.m */,
 				B539BF681CA17B0800AC0B7F /* AbstractBaseClass */,
+				B58A44F71CA276A200CB9D34 /* Tools */,
 				B539BF5A1CA17AE200AC0B7F /* Main.storyboard */,
 				B539BF5D1CA17AE200AC0B7F /* Assets.xcassets */,
 				B539BF5F1CA17AE200AC0B7F /* LaunchScreen.storyboard */,
@@ -109,8 +132,54 @@
 			children = (
 				B539BF6E1CA1881600AC0B7F /* CustomViewController.h */,
 				B539BF6F1CA1881600AC0B7F /* CustomViewController.m */,
+				B58A44E61CA2699E00CB9D34 /* CustomNavigationController.h */,
+				B58A44E71CA2699E00CB9D34 /* CustomNavigationController.m */,
+				B58A44E91CA26BEA00CB9D34 /* CustomViewControllerSubviewTagValue.h */,
+				B58A44EA1CA26E5800CB9D34 /* CustomNomalContentViewController.h */,
+				B58A44EB1CA26E5800CB9D34 /* CustomNomalContentViewController.m */,
+				B58A44ED1CA2734400CB9D34 /* CustomFullContentViewController.h */,
+				B58A44EE1CA2734400CB9D34 /* CustomFullContentViewController.m */,
+				B58A44F01CA2753800CB9D34 /* NormalTitleViewController.h */,
+				B58A44F11CA2753800CB9D34 /* NormalTitleViewController.m */,
 			);
 			name = CustomController;
+			sourceTree = "<group>";
+		};
+		B58A44F31CA2765200CB9D34 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				B58A44F41CA2767E00CB9D34 /* UIColor+CustomColors.h */,
+				B58A44F51CA2767E00CB9D34 /* UIColor+CustomColors.m */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
+		B58A44F71CA276A200CB9D34 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B58A44FC1CA28D4400CB9D34 /* UIFont */,
+				B58A44F81CA276DC00CB9D34 /* SetRect */,
+				B58A44F31CA2765200CB9D34 /* Color */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		B58A44F81CA276DC00CB9D34 /* SetRect */ = {
+			isa = PBXGroup;
+			children = (
+				B58A44F91CA2778800CB9D34 /* UIView+SetRect.h */,
+				B58A44FA1CA2778800CB9D34 /* UIView+SetRect.m */,
+			);
+			name = SetRect;
+			sourceTree = "<group>";
+		};
+		B58A44FC1CA28D4400CB9D34 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				B58A44FD1CA28D5500CB9D34 /* UIFont+Fonts.h */,
+				B58A44FE1CA28D5500CB9D34 /* UIFont+Fonts.m */,
+			);
+			name = UIFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +254,16 @@
 			files = (
 				B539BF591CA17AE200AC0B7F /* ViewController.m in Sources */,
 				B539BF701CA1881600AC0B7F /* CustomViewController.m in Sources */,
+				B58A44F61CA2767E00CB9D34 /* UIColor+CustomColors.m in Sources */,
 				B539BF6C1CA17BB300AC0B7F /* AbstractAlertView.m in Sources */,
+				B58A44F21CA2753800CB9D34 /* NormalTitleViewController.m in Sources */,
 				B539BF561CA17AE200AC0B7F /* AppDelegate.m in Sources */,
+				B58A44EF1CA2734400CB9D34 /* CustomFullContentViewController.m in Sources */,
+				B58A44EC1CA26E5800CB9D34 /* CustomNomalContentViewController.m in Sources */,
+				B58A44FB1CA2778800CB9D34 /* UIView+SetRect.m in Sources */,
+				B58A44E81CA2699E00CB9D34 /* CustomNavigationController.m in Sources */,
 				B539BF531CA17AE200AC0B7F /* main.m in Sources */,
+				B58A44FF1CA28D5500CB9D34 /* UIFont+Fonts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +410,7 @@
 				B539BF671CA17AE200AC0B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

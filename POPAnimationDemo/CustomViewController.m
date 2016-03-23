@@ -26,22 +26,78 @@
 #define ControllerLog(...)
 #endif
 
-@interface CustomViewController ()
+@interface CustomViewController ()<UIGestureRecognizerDelegate>
 
 @end
 
 @implementation CustomViewController
 
 - (void)viewDidLoad {
+
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self setup];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setup {
+
+    self.m_width              = [UIScreen mainScreen].bounds.size.width;
+    self.m_height             = [UIScreen mainScreen].bounds.size.height;
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
+- (void)useInteractivePopGestureRecongizer {
 
+    self.navigationController.interactivePopGestureRecognizer.delegate = self;
+}
+
+- (void)popViewControllerAnimated:(BOOL)animated {
+
+    [self.navigationController popViewControllerAnimated:animated];
+}
+
+- (void)popToRootViewControllerAnimater:(BOOL)animated {
+
+    [self.navigationController popToRootViewControllerAnimated:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+
+    [super viewDidAppear:animated];
+    
+#ifdef DEBUG
+    
+    [self debugMessage];
+    
+#endif
+}
+
+- (void)setM_enableInteractivePopGestureRecongizer:(BOOL)m_enableInteractivePopGestureRecongizer {
+
+    _m_enableInteractivePopGestureRecongizer                          = m_enableInteractivePopGestureRecongizer;
+    self.navigationController.interactivePopGestureRecognizer.enabled = m_enableInteractivePopGestureRecongizer;
+}
+
+#pragma mark - Debug Message
+
+- (void)debugMessage {
+
+    NSString *classStr = [NSString stringWithFormat:@" %@ ",[self class]];
+    NSMutableString *flagStr = [NSMutableString string];
+    
+    for (int i = 0; i < classStr.length; i++) {
+        
+        if (i == 0 || i == classStr.length - 1) {
+            
+            [flagStr appendString:@"+"];
+            continue;
+        }
+        
+        [flagStr appendString:@"-"];
+    }
+    
+    NSString *showStr = [NSString stringWithFormat:@"\n%@\n%@\n%@\n",flagStr,classStr,flagStr];
+    ControllerLog(@"%@",showStr);
+}
 
 @end
