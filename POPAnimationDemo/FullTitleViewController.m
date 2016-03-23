@@ -1,20 +1,24 @@
 //
-//  NormalTitleViewController.m
+//  FullTitleViewController.m
 //  POPAnimationDemo
 //
 //  Created by FrankLiu on 16/3/23.
 //  Copyright © 2016年 FrankLiu. All rights reserved.
 //
 
-#import "NormalTitleViewController.h"
+#import "FullTitleViewController.h"
 #import "UIColor+CustomColors.h"
 #import "UIView+SetRect.h"
 #import "UIFont+Fonts.h"
 
-@implementation NormalTitleViewController
+@interface FullTitleViewController ()
+
+@end
+
+@implementation FullTitleViewController
 
 - (void)buildTitleView {
-
+    
     [super buildTitleView];
     
     // Title Label.

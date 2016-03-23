@@ -22,6 +22,8 @@
 		B58A44F61CA2767E00CB9D34 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A44F51CA2767E00CB9D34 /* UIColor+CustomColors.m */; };
 		B58A44FB1CA2778800CB9D34 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A44FA1CA2778800CB9D34 /* UIView+SetRect.m */; };
 		B58A44FF1CA28D5500CB9D34 /* UIFont+Fonts.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A44FE1CA28D5500CB9D34 /* UIFont+Fonts.m */; };
+		B593454D1CA2C3360031528E /* FullTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B593454C1CA2C3360031528E /* FullTitleViewController.m */; };
+		B59345501CA2C54F0031528E /* FullTitleVisualEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B593454F1CA2C54F0031528E /* FullTitleVisualEffectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,10 @@
 		B58A44FA1CA2778800CB9D34 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
 		B58A44FD1CA28D5500CB9D34 /* UIFont+Fonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Fonts.h"; sourceTree = "<group>"; };
 		B58A44FE1CA28D5500CB9D34 /* UIFont+Fonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Fonts.m"; sourceTree = "<group>"; };
+		B593454B1CA2C3360031528E /* FullTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullTitleViewController.h; sourceTree = "<group>"; };
+		B593454C1CA2C3360031528E /* FullTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullTitleViewController.m; sourceTree = "<group>"; };
+		B593454E1CA2C54F0031528E /* FullTitleVisualEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullTitleVisualEffectViewController.h; sourceTree = "<group>"; };
+		B593454F1CA2C54F0031528E /* FullTitleVisualEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullTitleVisualEffectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,10 @@
 				B58A44EE1CA2734400CB9D34 /* CustomFullContentViewController.m */,
 				B58A44F01CA2753800CB9D34 /* NormalTitleViewController.h */,
 				B58A44F11CA2753800CB9D34 /* NormalTitleViewController.m */,
+				B593454B1CA2C3360031528E /* FullTitleViewController.h */,
+				B593454C1CA2C3360031528E /* FullTitleViewController.m */,
+				B593454E1CA2C54F0031528E /* FullTitleVisualEffectViewController.h */,
+				B593454F1CA2C54F0031528E /* FullTitleVisualEffectViewController.m */,
 			);
 			name = CustomController;
 			sourceTree = "<group>";
@@ -253,10 +263,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B539BF591CA17AE200AC0B7F /* ViewController.m in Sources */,
+				B59345501CA2C54F0031528E /* FullTitleVisualEffectViewController.m in Sources */,
 				B539BF701CA1881600AC0B7F /* CustomViewController.m in Sources */,
 				B58A44F61CA2767E00CB9D34 /* UIColor+CustomColors.m in Sources */,
 				B539BF6C1CA17BB300AC0B7F /* AbstractAlertView.m in Sources */,
 				B58A44F21CA2753800CB9D34 /* NormalTitleViewController.m in Sources */,
+				B593454D1CA2C3360031528E /* FullTitleViewController.m in Sources */,
 				B539BF561CA17AE200AC0B7F /* AppDelegate.m in Sources */,
 				B58A44EF1CA2734400CB9D34 /* CustomFullContentViewController.m in Sources */,
 				B58A44EC1CA26E5800CB9D34 /* CustomNomalContentViewController.m in Sources */,
