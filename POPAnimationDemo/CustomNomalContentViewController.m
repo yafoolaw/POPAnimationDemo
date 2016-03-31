@@ -15,11 +15,11 @@
 
     [super setup];
     
-    [self buildWindowView];
-    [self buildLoadingView];
-    [self buildTitleView];
-    [self buildContentView];
     [self buildBackgroundView];
+    [self buildContentView];
+    [self buildTitleView];
+    [self buildLoadingView];
+    [self buildWindowView];
     
     self.m_loadingView.userInteractionEnabled = NO;
     self.m_windowView.userInteractionEnabled  = NO;
